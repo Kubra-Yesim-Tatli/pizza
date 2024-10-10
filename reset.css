@@ -1,0 +1,32 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%; /* Temel yazı boyutu */
+}
+
+body {
+    line-height: 1.5; /* Satır yüksekliği */
+}
+
+/* Diğer elemanlar için varsayılan stiller */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal; /* Başlıkların kalınlık ayarı */
+}
+
+ul, ol {
+    list-style: none; /* Liste simgelerini kaldır */
+}
+
+table {
+    border-collapse: collapse; /* Tablo kenarlıklarını birleştir */
+}
+
+img {
+    max-width: 100%; /* Resimlerin boyutunu sınırlamak için */
+    height: auto; /* Orantılı ölçekleme için */
+}
